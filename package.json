@@ -1,0 +1,31 @@
+{
+  "name": "ember-addon-kit",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "glob": "~3.2.6",
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-ember-templates": "~0.4.13",
+    "grunt-es6-module-transpiler": "~0.4.1",
+    "loom": "~2.0.0",
+    "loom-generators-ember": "0.0.2",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "load-grunt-tasks": "~0.1.0",
+    "grunt-bower-import": "0.0.0",
+    "bower-import": "0.0.1"
+  }
+}
