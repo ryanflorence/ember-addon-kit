@@ -5,7 +5,7 @@ module.exports = {
       amd: true
     },
     files: {
-      "build/app/app-templates.js": "example/app/templates/**/*.hbs"
+      ".build/app/app-templates.js": "example/app/templates/**/*.hbs"
     }
   }
 };

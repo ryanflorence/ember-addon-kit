@@ -1,4 +1,4 @@
 module.exports = {
-  build: ['build']
+  build: ['.build']
 };
 

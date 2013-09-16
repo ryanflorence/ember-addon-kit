@@ -8,7 +8,7 @@ module.exports = {
         expand: true,
         cwd: 'example/',
         src: ['**/*.js'],
-        dest: 'build'
+        dest: '.build'
       }
     ]
   }

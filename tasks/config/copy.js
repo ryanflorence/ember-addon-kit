@@ -5,7 +5,7 @@ module.exports = {
         expand: true,
         cwd: './bower_components/',
         src: '**/*.js',
-        dest: 'build/bower_components'
+        dest: '.build/bower_components'
       }
     ]
   },
@@ -13,7 +13,7 @@ module.exports = {
     files: [
       {
         src: 'example/index.html',
-        dest: 'build/index.html'
+        dest: '.build/index.html'
       }
     ]
   }
