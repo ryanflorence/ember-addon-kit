@@ -7,17 +7,21 @@ module.exports = function(grunt) {
   grunt.initConfig(loadProjectConfig());
   grunt.registerTask('dev', ['build']);
   grunt.registerTask('build', [
-                       'clean:build',
-                       'copy:vendor',
-                       'copy:html',
-                       'transpile',
-                       'emberTemplates',
-                       'emberMain']);
+    'clean:build',
+    'copy:vendor',
+    'copy:html',
+    'transpile',
+    'emberTemplates',
+    //'replaceAddonName',
+  ]);
   grunt.registerTask('dev', [
-                       'bowerImport',
-                       'build',
-                       'connect:server',
-                       'watch']);
+    'bowerImport',
+    'build',
+    'connect:server',
+    //'karma:dev', // won't report :\
+    'watch'
+  ]);
+  grunt.registerTask('test', ['karma:single']);
 };
 
 function loadProjectTasks(grunt) {

@@ -24,6 +24,19 @@ module.exports = {
         dest: '.build'
       }
     ]
+  },
+
+  tests: {
+    anonymous: true,
+    type: 'amd',
+    files: [
+      {
+        expand: true,
+        cwd: 'test/',
+        src: ['**/*.js'],
+        dest: '.build/test'
+      }
+    ]
   }
 };
 

@@ -8,7 +8,7 @@ module.exports = {
   },
   js: {
     options: options,
-    files: ['main.js', 'lib/**/*.js', 'example/**/*.js'],
+    files: ['main.js', 'lib/**/*.js', 'example/**/*.js', 'test/**/*.js'],
     tasks: ['transpile']
   },
   bower: {

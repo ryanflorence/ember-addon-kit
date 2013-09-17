@@ -26,6 +26,18 @@
     "grunt-contrib-requirejs": "~0.4.1",
     "load-grunt-tasks": "~0.1.0",
     "grunt-bower-import": "0.0.0",
-    "bower-import": "0.0.1"
+    "bower-import": "0.0.1",
+    "karma": "~0.10.2",
+    "grunt-karma": "~0.6.2"
+  },
+  "dependencies": {
+    "karma-script-launcher": "~0.1.0",
+    "karma-firefox-launcher": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-jasmine": "~0.1.3",
+    "karma-requirejs": "~0.1.0",
+    "karma-coffee-preprocessor": "~0.1.0",
+    "karma-phantomjs-launcher": "~0.1.0"
   }
 }
