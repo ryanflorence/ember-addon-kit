@@ -15,9 +15,13 @@ Instructions
 1. Clone this repository `git clone
    https://github.com/rpflorence/ember-addon-kit.git`
 2. `npm install` and `bower install`
-3. Change name in `bower.json`.
+3. Change 'my-addon' to the name of your addon in
+   - `bower.json`
+   - `example/app/main.js`
+   - `example/index.html`
+   - `test/main.js`
 4. `$ grunt dev`
-5. `$ grunt karma:watch` (need to fix this)
+5. `$ grunt karma:watch`
 6. Add files to lib with the same file naming conventions found in ember app kit.
 7. Export things in `main.js`.
 
