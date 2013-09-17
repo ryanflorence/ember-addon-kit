@@ -9,7 +9,10 @@ for (var file in window.__karma__.files) {
 
 requirejs.config({
   baseUrl: '/base/.build/bower_components',
-  packages: [{name: 'my-addon', location: '../addon'}],
+  packages: [
+    {name: 'app', location: '../app'},
+    {name: 'my-addon', location: '../addon'}
+  ],
   deps: tests,
   callback: window.__karma__.start
 });

@@ -5,7 +5,7 @@ module.exports = {
       amd: true
     },
     files: {
-      ".build/app/addon-templates.js": "lib/templates/**/*.hbs"
+      ".build/addon/templates.js": "lib/templates/**/*.hbs"
     }
   },
 

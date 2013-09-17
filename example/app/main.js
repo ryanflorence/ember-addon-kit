@@ -12,7 +12,7 @@ import { XFooComponent } from 'my-addon';
 // from your addon into their app, they are arbitrarily compiled in this
 // example application to ./addon-templates.js, ember app kit will eventually
 // handle this automatically
-import addonTemplates from './addon-templates';
+import addonTemplates from 'my-addon/templates';
 
 var App = Ember.Application.create();
 
