@@ -2,7 +2,7 @@
   "name": "my-ember-addon",
   "version": "0.0.0",
   "authors": [
-    "Ryan Florence <rpflorence@gmail.com>"
+    "Your Name <you@example.com>"
   ],
   "license": "MIT",
   "ignore": [

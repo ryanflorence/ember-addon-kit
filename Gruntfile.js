@@ -5,7 +5,7 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
   loadProjectTasks(grunt);
   grunt.initConfig(loadProjectConfig());
-  grunt.registerTask('default', ['build']);
+  grunt.registerTask('dev', ['build']);
   grunt.registerTask('build', [
                        'clean:build',
                        'copy:vendor',
